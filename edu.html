@@ -26,7 +26,17 @@
         <li><a href="edu.html">Education</a></li>
         <li><a href="about.html">About</a></li>
      </ul>
+     <div class="dropdown">
+      <!-- <img onclick="myFunction" class = "dropbtn" src="images/navigation.png" alt="menu">
+      <button id="close-image"><img src="http://thinkingstiff.com/images/matt.jpg"></button> -->
 
+      <button onclick="myFunction()" class="dropbtn">MENU</button>
+      <div id="myDropdown" class="dropdown-content">
+          <a href="Home.html">Home</a>
+          <a href="edu.html">Education</a>
+          <a href="about.html">About</a>
+      </div>
+    </div>
     </div> 
 </div>
 </header>
@@ -74,6 +84,28 @@
              
         </footer>
 
+
+        <script>
+          /* When the user clicks on the button, 
+          toggle between hiding and showing the dropdown content */
+          function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+          }
+          
+          // Close the dropdown if the user clicks outside of it
+          window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+              var dropdowns = document.getElementsByClassName("dropdown-content");
+              var i;
+              for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                  openDropdown.classList.remove('show');
+                }
+              }
+            }
+          }
+          </script>
 
 
 </body>
