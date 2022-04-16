@@ -121,7 +121,7 @@ img{
     margin-right: 2em;
    
 }
- .main-body .up p{
+ /* .main-body .up p{
 
     margin-left: 2em;
     margin-right: 2em;
@@ -129,9 +129,12 @@ img{
     color: rgb(51, 99, 110);
     line-height: 1.5em;
     font-family: 'Grape Nuts';
-}
+} */
 
 
+/* .up p h5{
+    color: yellow;
+} */
 
 .main-body .down
 {
