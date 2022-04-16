@@ -8,13 +8,17 @@ body{
    
 }
  header{
-    background-color: rgb(255, 217, 0);   
+    background-color: rgb(17, 37, 126);   
    
         position: sticky;
         top: 0;
       
  }
+ .main-body .up .para .desb .h5
+ {
+    background-color: red;   
 
+ }
 
 
  header .navbar{
@@ -36,7 +40,7 @@ font-weight: bolder;
 .navbar-menu{
 
     display: none;
-   background-color: rgb(255, 217, 0);
+   background-color: rgb(17, 37, 126);
     display: block;
     display: flex;
     place-content: space-between;
@@ -50,7 +54,7 @@ font-weight: bolder;
  .top-of-page h1{
 
     margin: auto;
-    color: rgb(255, 217, 0);
+    color: rgb(17, 37, 126);
     padding-top: 4em;
     padding-bottom: 4em;
 } 
@@ -65,14 +69,14 @@ img{
     margin-left: 0.5em;
     margin-right: 2em;
     background-color:RGB(255,255,255);
-    color:rgb(255, 217, 0);
+    color:rgb(17, 37, 126);
     font-size:small;
     
     padding: 2%;
     padding-top:3%;
     padding-bottom: 3%;
 
-    border-color: rgb(255, 217, 0);
+    border-color: rgb(17, 37, 126);
     border-style:solid;
       border-width: 5px;
       border-radius: 25%;
@@ -80,11 +84,11 @@ img{
 }
 .current a { 
     padding: 2%;
-    border-color: rgb(255, 217, 0);
+    border-color: rgb(17, 37, 126);
     border-style:solid;
       border-width: 5px;
       border-radius: 25%;
-
+     
 }
 
 .options{
@@ -115,14 +119,14 @@ img{
    
 }
 .up .para{
-     /* background-color: rgba(149, 199, 71 ); */
+     background-image:url('images/blue3.jpeg');
     display: block;
-    background-color: rgba(243, 255, 80, 0.478);
     margin-left: 2em;
     margin-right: 2em;
     text-align: center;
-    color: rgb(255, 217, 0);
     line-height: 1.5em;
+    color: blue;
+
    
 
 }
@@ -134,12 +138,18 @@ img{
   height:25%;
   padding-bottom:0%;
   padding: auto;
-  padding-top:2em;
  
 }
 
-.up .desb{
-    color: blue;
+.desb h6{
+    background-color: aliceblue;
+    color: rgb(17, 37, 126);
+}
+.up a{
+    background-color:rgb(17, 37, 126);
+    color: white;
+    border-color:  aliceblue;
+    border-style: solid;
 }
 
 
@@ -149,6 +159,12 @@ img{
     display: block;
      display: none;
     width: 30%;
+}
+.down h4{
+    text-align: center;
+    padding: 2em;
+    padding-top: 3em;
+    color: rgb(17, 37, 126)
 }
 .side-options {display: none;
    
@@ -164,9 +180,11 @@ img{
     font-weight: 1000;
     font-size:medium;
     color:RGB(255,255,255);
-    background-color:rgb(255, 217, 0);
+    background-color:rgb(17, 37, 126);
     padding: 0.5em;
-   border-radius: 30%;
+    padding-left: 2em;
+    padding-right: 2em;
+   border-radius: 50%;
 }
 .side-options li{
     padding: 1em;
@@ -179,7 +197,7 @@ img{
  
  
 footer{
-    background-color:rgb(255, 217, 0);
+    background-color:rgb(17, 37, 126);
     color:RGB(255,255,255);
     padding-left: 2em;
     margin-bottom: 0%;
@@ -202,19 +220,17 @@ footer{
         
       }
       .up .para{
-        display: flex;
-    place-content: space-between;
+        
     margin-bottom: 2em;
     padding-left: 4em;
     padding-bottom: 4em;
-    padding-right: 2em;
-    border-radius: 15%;
+    text-align: center;
       
     }
     .up img{
         height:15%;
         padding:0%;
-        padding-top:2em;
+     
       
       }
      
