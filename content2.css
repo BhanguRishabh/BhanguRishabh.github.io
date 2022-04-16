@@ -176,7 +176,7 @@ img{
  
 }
 .side-options a{
-    text-decoration:  underline;
+    text-decoration:  none;
     font-weight: 1000;
     font-size:medium;
     color:RGB(255,255,255);
@@ -198,13 +198,15 @@ img{
  
 footer{
     background-color:rgb(17, 37, 126);
-    color:RGB(255,255,255);
     padding-left: 2em;
     margin-bottom: 0%;
    display: block;
   
 
 
+}
+footer a {
+    color:white;
 }
 
 @media only screen and (min-width:768px){
