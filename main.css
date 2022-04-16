@@ -35,12 +35,16 @@ font-weight: bolder;
 }
 .navbar-menu{
 
-    display: none;
+    
     background-color: rgb(51, 99, 110);
     display: block;
     display: flex;
     place-content: space-between;
 
+}
+
+ .navbar-menu .options{
+    display: none;
 }
 
 .top-of-page{
@@ -59,6 +63,8 @@ img{
     border-radius: 25%;
     padding: 2em;
 }
+
+
 
 .options a{
     text-decoration:none;
@@ -167,6 +173,8 @@ footer a {
     color:white;
 }
 
+
+
 @media only screen and (min-width:768px){
     .main-body .down{
 
@@ -179,9 +187,61 @@ footer a {
         position: relative;
         
       }
+      .dropbtn{
+          display: none;
+      }
+      .navbar-menu .options{
+          display: block;
+          display: flex;
+          
+      }
     
+}
 }
 
 
 
 
+/* Dropdown Button */
+.dropbtn{
+    padding: 2%;
+    padding-top:3%;
+    padding-bottom: 3%;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+   margin: right 1em;;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position:relative;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: #2980B9;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
