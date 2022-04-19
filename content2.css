@@ -77,17 +77,20 @@ img{
     padding-bottom: 3%;
 
     border-color: rgb(17, 37, 126);
-    border-style:solid;
-      border-width: 5px;
-      border-radius: 25%;
+    border-style:none;
+    border-width: 5px;
+    border-radius: 15%;
+
+   padding:0.6em 3em;
 
 }
 .current a { 
     padding: 2%;
     border-color: rgb(17, 37, 126);
-    border-style:solid;
-      border-width: 5px;
-      border-radius: 25%;
+    border-style:none;
+    border-width: 5px;
+    border-radius: 15%;
+   padding:0.6em 3em;
      
 }
 
@@ -98,6 +101,10 @@ img{
     place-content:space-between;
    
 }
+
+.options a:hover , .logo:hover {
+    background-color: rgba(69,171,204);
+  }
 .navbar-menu .options{
     display: none;
 }
@@ -129,6 +136,7 @@ img{
     text-align: center;
     line-height: 1.5em;
     color: blue;
+    background-color: rgba(69,171,204);
 
    
 
@@ -185,9 +193,9 @@ img{
     color:RGB(255,255,255);
     background-color:rgb(17, 37, 126);
     padding: 0.5em;
-    padding-left: 2em;
-    padding-right: 2em;
-   border-radius: 50%;
+    display: block;
+    display: flex;
+    place-content:center;
 }
 .side-options li{
     padding: 1em;
